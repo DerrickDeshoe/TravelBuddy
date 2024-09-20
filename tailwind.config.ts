@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,10 +10,21 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': "url('../public/imgs/Landing Image 1.png')",
+        'places-pattern': "url('../public/imgs/eventBG1.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       },
+      colors: {
+        gray: '#696969',
+        gray2: '#626262',
+        blue: '#041562',
+        lightBlue: '#51728E',
+        lighterBlue: '#2D93EA',
+        lighttBlue: '#3045A5',
+        lightGray: '#F3F3F3',
+        orange: '#FF5403',
+        red: '#DA1212',
+      }
     },
   },
   plugins: [],
