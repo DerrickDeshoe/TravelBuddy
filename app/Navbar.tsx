@@ -66,9 +66,11 @@ const NavBar = () => {
       </div>
 
       <div className="hidden lg:flex">
-        <button className="bg-orange py-2 px-5 text-white text-xs font-medium">
-          Book Now
-        </button>
+        <Link href="#">
+          <button className="bg-orange py-2 px-5 text-white text-xs font-medium">
+            Book Now
+          </button>
+        </Link>
       </div>
 
       {isOpen && (

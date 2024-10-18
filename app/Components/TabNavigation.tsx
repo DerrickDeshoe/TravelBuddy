@@ -13,27 +13,23 @@ const TabNavigation: React.FC = () => {
       case "Hotel":
         return (
           <div className="flex space-x-3">
-            <div className=" p-1  lg:p-2 border border-lighterBlue text-xs flex justify-between items-center lg:w-[140px] ">
+            <div className=" p-2 border border-lighterBlue text-xs flex justify-between items-center lg:w-[140px] ">
               <div className="text-lighterBlue">choose place</div>
               <Image src={Date} alt="date" className="w-[10%] h-[60%]" />
             </div>
-            <div className=" p-1 lg:p-2 border border-lighterBlue text-xs flex space-x-5 lg:w-[140px]">
+            <div className=" p-2 border border-lighterBlue text-xs flex space-x-5 lg:w-[140px] items-center">
               <div className="text-lighterBlue">check in date</div>
               <Image
                 src={Dropdown}
                 alt="dropdown"
-                className="w-[15%]"
+                className="w-[10%] h-[60%]"
               />
             </div>
-            <div className=" p-1 lg:p-2 border border-lighterBlue text-xs flex space-x-5 lg:w-[140px]">
-            <div className="text-lighterBlue">check out date</div>
-              <Image
-                src={Dropdown}
-                alt="dropdown"
-                className="w-[15%]"
-              />
+            <div className=" p-2 border border-lighterBlue text-xs flex space-x-5 lg:w-[140px] items-center">
+              <div className="text-lighterBlue">check out date</div>
+              <Image src={Dropdown} alt="dropdown" className="w-[10%] h-[60%]" />
             </div>
-            <div className=" p-1 lg:p-2 border border-lighterBlue text-xs flex justify-between items-center lg:w-[140px]">
+            <div className=" p-2 border border-lighterBlue text-xs flex justify-between items-center lg:w-[140px]">
               <div className="text-lighterBlue">person</div>
               <Image src={Date} alt="date" className="w-[10%] h-[60%]" />
             </div>

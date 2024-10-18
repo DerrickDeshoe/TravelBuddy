@@ -27,7 +27,7 @@ const Home = () => {
           Travel Buddy
         </h1>
         <p className="w-[65%] text-center text-sm lg:w-full lg:text-[16px]">
-          Let's start your journey with us, your dream will come true
+          Let&apos;s start your journey with us, your dream will come true
         </p>
         <div className=" pt-2 lg:pt-3">
           <button className="bg-orange py-3 px-6 lg:px-6 text-white text-xs font-thin">
@@ -61,32 +61,33 @@ const Home = () => {
             Discover Now
           </button>
         </div>
-        <div className="flex flex-wrap bg-places-pattern bg-cover bg-center bg-no-repeat justify-center">
-          <Places
-            placeName="Bali - Indonesia"
-            description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
-            date="12 Aug 2020"
-            cost="Starting from $50 000"
-          />
-          <Places
-            placeName="Bora - Bora"
-            description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
-            date="12 Aug 2020"
-            cost="Starting from $50 000"
-          />
-          <Places
-            placeName="Bali - Indonesia"
-            description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
-            date="12 Aug 2020"
-            cost="Starting from $50 000"
-          />
-          <Places
-            placeName="Bali - Indonesia"
-            description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
-            date="12 Aug 2020"
-            cost="Starting from $50 000"
-          />
-        </div>
+      </div>
+
+      <div className="flex flex-wrap bg-places-pattern bg-cover bg-center bg-no-repeat justify-center">
+        <Places
+          placeName="Bali - Indonesia"
+          description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
+          date="12 Aug 2020"
+          cost="Starting from $50 000"
+        />
+        <Places
+          placeName="Bora - Bora"
+          description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
+          date="12 Aug 2020"
+          cost="Starting from $50 000"
+        />
+        <Places
+          placeName="Bali - Indonesia"
+          description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
+          date="12 Aug 2020"
+          cost="Starting from $50 000"
+        />
+        <Places
+          placeName="Bali - Indonesia"
+          description="An exotic paradise, beckons with vibrant rice terraces, lush jungles, and pristine beaches. Explore ancient temples, surf thrilling waves, and immerse in rich culture for an unforgettable adventure."
+          date="12 Aug 2020"
+          cost="Starting from $50 000"
+        />
       </div>
       {/* Top Places Section End */}
 
@@ -134,17 +135,17 @@ const Home = () => {
         <div className="flex flex-wrap space-y-5 lg:space-y-0 items-center lg:justify-between">
           <Testimonials
             description="Our vacation was flawless thanks to this site! The curated itineraries and easy navigation made 
-            planning a breeze. Truly a traveler's best companion for any trip."
+            planning a breeze. Truly a traveler&apos;s best companion for any trip."
             name="-Chari"
           />
           <Testimonials
             description="Our vacation was flawless thanks to this site! The curated itineraries and easy navigation made 
-            planning a breeze. Truly a traveler's best companion for any trip."
+            planning a breeze. Truly a traveler&apos;s best companion for any trip."
             name="-Chari"
           />
           <Testimonials
             description="Our vacation was flawless thanks to this site! The curated itineraries and easy navigation made 
-            planning a breeze. Truly a traveler's best companion for any trip."
+            planning a breeze. Truly a traveler&apos;s best companion for any trip."
             name="-Chari"
           />
           {/* <Testimonials
